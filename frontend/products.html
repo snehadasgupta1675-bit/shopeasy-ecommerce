@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ShopEasy - Products</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">ShopEasy</div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart 🛒</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="products-section">
+
+            <h1>Our Products</h1>
+
+            <div class="search-box">
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search products..."
+                >
+
+                <select id="categoryFilter">
+                    <option value="all">All Categories</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="fashion">Fashion</option>
+                    <option value="books">Books</option>
+                </select>
+            </div>
+
+            <div id="productContainer" class="product-grid">
+
+                <div class="product-card">
+                    <h3>Wireless Headphones</h3>
+                    <p>Electronics</p>
+                    <strong>₹1,999</strong>
+                    <button onclick="addToCart('Wireless Headphones', 1999)">
+                        Add to Cart
+                    </button>
+                </div>
+
+                <div class="product-card">
+                    <h3>Smart Watch</h3>
+                    <p>Electronics</p>
+                    <strong>₹2,499</strong>
+                    <button onclick="addToCart('Smart Watch', 2499)">
+                        Add to Cart
+                    </button>
+                </div>
+
+                <div class="product-card">
+                    <h3>Casual T-Shirt</h3>
+                    <p>Fashion</p>
+                    <strong>₹699</strong>
+                    <button onclick="addToCart('Casual T-Shirt', 699)">
+                        Add to Cart
+                    </button>
+                </div>
+
+                <div class="product-card">
+                    <h3>Programming Book</h3>
+                    <p>Books</p>
+                    <strong>₹599</strong>
+                    <button onclick="addToCart('Programming Book', 599)">
+                        Add to Cart
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ShopEasy. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/products.js" defer></script>
+
+</body>
+</html> 
