@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "category": "electronics",
+    "price": 1999,
+    "description": "High-quality wireless headphones with clear sound.",
+    "image": "headphones.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Smart Watch",
+    "category": "electronics",
+    "price": 2499,
+    "description": "A stylish smart watch for everyday use.",
+    "image": "smartwatch.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Casual T-Shirt",
+    "category": "fashion",
+    "price": 699,
+    "description": "Comfortable and trendy casual t-shirt.",
+    "image": "tshirt.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Programming Book",
+    "category": "books",
+    "price": 599,
+    "description": "A useful book for learning programming concepts.",
+    "image": "programming-book.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Laptop Backpack",
+    "category": "fashion",
+    "price": 1299,
+    "description": "Durable backpack suitable for laptops and daily use.",
+    "image": "backpack.jpg"
+  },
+  {
+    "id": 6,
+    "name": "JavaScript Guide",
+    "category": "books",
+    "price": 799,
+    "description": "A beginner-friendly guide to JavaScript.",
+    "image": "javascript-book.jpg"
+  }
+]
